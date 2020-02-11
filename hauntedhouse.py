@@ -5,7 +5,9 @@ welcome = """
   And survivor takes the prize.
 """
 print(welcome)
-print("Choose which room to explore: 1. living room or 2. study room")
+print("Choose which room to explore: 
+print("1. living room") 
+print("2. study room")
 room = input("> ")
 
 if room == "1" or room == "living room":
@@ -20,7 +22,7 @@ if room == "1" or room == "living room":
   elif owner_ghost == "2":
     print("You're very brave and win the prize.")
   else:
-    print("You must make a choice.")
+    print("You must make a choice.") #need a way to loop back until a choice is made
 
 if room == "2" or room == "study room":
   print("You meet the ghost of the family's child.")
